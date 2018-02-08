@@ -1,5 +1,7 @@
 While (noSuccess)
+
 {
+
 	tryAgain();
 	
 	if (dead)
