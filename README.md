@@ -1,3 +1,8 @@
-# TinChopper's First Program using GitHub
-# Bajans can do it too !! :)
-# Welcome
+While (noSuccess)
+{
+	tryAgain();
+	
+	if (dead)
+		break;
+}
+# Talk is cheap. Show me the code !
