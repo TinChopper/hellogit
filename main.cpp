@@ -12,14 +12,14 @@ int main ()
 	string myName = " ";
 	string myName1 = " ";
 	
-	cout << "Enter first random number";
+	cout << "Enter first random number : ";
 	cin >> myNum;
-	cout << "Enter first name";
+	cout << "Enter first name : ";
 	cin >> myName;
 	
-	cout << "Enter second random number";
+	cout << "Enter second random number : ";
 	cin >> myNum1;
-	cout << "Enter second name";
+	cout << "Enter second name : ";
 	cin >> myName1;
 	
 	good.setNum (myNum);
@@ -31,10 +31,10 @@ int main ()
 	myVector.push_back(good);
 	myVector.push_back(good1);
 	
-	
+	cout << endl;
 	for (int i = 0; i < myVector.size(); i++)
 	{
-		cout << myVector[i].getNum() <<endl;
+		cout << myVector[i].getNum() << " " ;
 		cout << myVector[i].getName() <<endl;
 	}
 	system("pause");

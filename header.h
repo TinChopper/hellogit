@@ -2,18 +2,17 @@ class Goodluck
 {
 	private:
 		int num;
-		string name; 
+		std::string name; 
 	public:
 		Goodluck()
 		{
 			num = 0;
-			name =" ";
 		}
 		void setNum (int myNum)
 		{
 			num = myNum;
 		}
-		void setName (string myName)
+		void setName (std::string myName)
 		{
 			name = myName;
 		}
@@ -21,7 +20,7 @@ class Goodluck
 		{
 			return num;
 		}
-		string getName () const
+		std::string getName () const
 		{
 			return name;
 		}
