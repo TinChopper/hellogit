@@ -15,28 +15,22 @@ int main ()
 	cout << "Enter your name";
 	cin >> myName;
 	
-	good.setNum = myNum;
-	good.setName = myName;
-	good1.setNum = myNum;
-	good1.setName = myName;
+	good.setNum (myNum);
+	good.setName (myName);
+	good1.setNum (myNum);
+	good1.setName (myName);
 	
-	vector <int> myVector;
-	myVector.push_back(good.getNum);
-	myVector.push_back(good1.getNum);
+	vector <Goodluck> myVector;
+	myVector.push_back(good);
+	myVector.push_back(good1);
 	
-	vector <string> hisVector;
-	hisVector.push_back(good.getName);
-	hisVector.push_back(good1.getName);
 	
 	for (int i = 0; i < myVector.size(); i++)
 	{
-		cout << myVector[i] << endl;
+		cout << myVector[i].getNum() <<endl;
+		cout << myVector[i].getName() <<endl;
 	}
-	for (int i = 0; i < hisVector.size(); i++)
-	{
-		cout << hisVector[i] << endl;
-	}
-	system ("pause");
+	system("pause");
 	return 0;
 }
 	
