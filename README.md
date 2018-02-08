@@ -1,2 +1,3 @@
-# hellogit
-Welcome to git[hub]
+# TinChopper's First Program using GitHub
+# Bajans can do it too !! :)
+# Welcome
