@@ -2,7 +2,7 @@ class Goodluck
 {
 	private:
 		int num;
-		string name;
+		string name; 
 	public:
 		Goodluck()
 		{
